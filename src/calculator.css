@@ -1,0 +1,120 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .display {
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .display {
+    width: 100%;
+    font-size: 24px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  .calculator {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .display {
+    width: 100%;
+    padding: 10px;
+    font-size: 32px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Define different styles for specific button types */
+  .operator {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  .clear {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .equals {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  .decimal {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+    
